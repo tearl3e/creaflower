@@ -11,7 +11,7 @@ class Contact(models.Model):
     class Meta:
         verbose_name = verbose_name_plural = 'Контакты'
 
-    def str(self):
+    def __str__(self):
         return self.phone
 
 
